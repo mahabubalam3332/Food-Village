@@ -11,9 +11,11 @@
     --secondary:#575757;
     background-color: #FFEDF9;
 }
+/* banner_section */
 
 div#banner_section {
     padding: 28px 0;
+    background-image: url("../images/memphis-geometric-background-with-abstract-shapes_23-2148934083.jpg");
 }
 .container_inner {
     display: flex;
@@ -21,4 +23,28 @@ div#banner_section {
     align-items: center;
     flex-wrap: wrap;
     font-family:var(--primary-fonts);
+}
+.banner_left h1 {
+    font-size: 50px;
+    padding: 20px 0;
+}
+.banner_left span{
+    color:var(--primary)
+} 
+.banner_left p {
+    font-size: 20px;
+    padding: 15px 0;
+}
+button.Order {
+    padding: 16px 22px;
+    background: tomato;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+button.Order a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
 }
