@@ -94,9 +94,6 @@ button.contact_me a {
     padding: 5px;
 }
 /* My recepies */
-
-
-
 section#my_recepies {
     padding: 15px 0;
     text-align: center;
@@ -141,4 +138,30 @@ section#my_recepies {
     font-size: 18px;
     text-align: left;
     padding: 15px 0;
+}
+/* counter_section */
+section#counter_section {
+    padding: 20px 0;
+    font-family: var(--secondary-fonts);
+    text-align: center;
+}
+.counter_area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 8px;
+    width: 74%;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.countent h1 {
+    font-size: 40px;
+    padding: 22px 0;
+}
+.countent p {
+    padding-bottom: 42px;
+    font-size: 20px;
+    color: var(--secondary);
 }
