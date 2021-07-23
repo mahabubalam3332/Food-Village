@@ -190,9 +190,26 @@ input[type="text"], [type="email"], textarea {
 input[type="submit"] {
     padding: 20px 53px;
     background: var(--primary);
-    border-radius: 30px;
     border: none;
     font-size: 20px;
     cursor: pointer;
-    display: flex;
+}
+/* footer_section */
+section#footer {
+    color: var(--secondary);
+    background: #0B0D16;
+    padding: 25px 0;
+    text-align: center;
+}
+.content h1 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.content p {
+    font-size: 20px;
+    padding: 20px 0;
+}
+span {
+    color: tomato;
 }
