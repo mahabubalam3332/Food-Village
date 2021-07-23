@@ -27,13 +27,15 @@ div#banner_section {
 .banner_left h1 {
     font-size: 50px;
     padding: 20px 0;
+    color:var(--secondary)
 }
 .banner_left span{
     color:var(--primary)
 } 
 .banner_left p {
     font-size: 20px;
-    padding: 15px 0;
+    padding: 30px 0;
+    color: var(--secondary);
 }
 button.Order {
     padding: 16px 22px;
@@ -44,6 +46,49 @@ button.Order {
     cursor: pointer;
 }
 button.Order a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+/* About_me */
+
+
+section#about_me {
+    padding: 25px 0;
+    font-family: var(--secondary-fonts);   
+}
+.content_left img {
+    height: 436px;
+    width: 275px;
+}
+.content_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    flex-wrap: wrap;
+}
+.content_right h1 {
+    font-size: 50px;
+    padding: 20px 0;
+    font-weight: 800;
+    color: var(--secondary);
+}
+.content_right p {
+    font-size: 20px;
+    padding: 35px 0;
+    line-height: 1.5em;
+    color:var(--secondary)
+}
+button.contact_me {
+    padding: 16px 22px;
+    background: tomato;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+button.contact_me a {
     text-decoration: none;
     color: #fff;
     padding: 5px;
