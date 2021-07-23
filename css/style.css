@@ -93,3 +93,52 @@ button.contact_me a {
     color: #fff;
     padding: 5px;
 }
+/* My recepies */
+
+
+
+section#my_recepies {
+    padding: 15px 0;
+    text-align: center;
+    color: var(--secondary);
+    font-family: var(--primary-fonts);
+}
+.recepies_title h1 {
+    font-size: 41px;
+    padding: 20px 0;
+}
+.recepies_title p {
+    font-size: 20px;
+    padding: 32px 0;
+}
+.recepies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+.images_name {
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 3px 3px 15px;
+    border-radius: 30px;
+    border: none;
+    margin: 20px;
+}
+.recepies img {
+    height: 253px;
+    width: 296px;
+    border-radius:20px;
+}
+.images_name h1 {
+    font-size: 28px;
+    text-align: left;
+    padding: 10px 0;
+    color:#000;
+}
+.images_name p {
+    font-size: 18px;
+    text-align: left;
+    padding: 15px 0;
+}
