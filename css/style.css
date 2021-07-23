@@ -165,3 +165,34 @@ section#counter_section {
     font-size: 20px;
     color: var(--secondary);
 }
+/* contact_area */
+section#contact_area {
+    padding: 20px 0;
+}
+.contact_title h1 {
+    font-size: 36px;
+    text-align: center;
+    padding: 33px 0;
+    color: var(--secondary);
+}
+input[type="text"], [type="email"], textarea {
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 16px;
+    margin-top: 6px;
+    border: 1px solid#ccc;
+    resize: vertical;
+    border-radius: 8px;
+    display: flex;
+}
+input[type="submit"] {
+    padding: 20px 53px;
+    background: var(--primary);
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+}
